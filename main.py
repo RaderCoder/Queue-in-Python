@@ -1,8 +1,8 @@
 import Queue
 
 if __name__ == "__main__":
-    Q = Queue.Queue(5)
-
+    Q = Queue.Queue()
+    print(Q.is_null())
     # print(Q)
 
     Q.enqueue(3)
@@ -11,4 +11,11 @@ if __name__ == "__main__":
 
     Q.dequeue()
 
-    # print(Q.front.value)
+    # print(Q)
+
+    # print(Q.peek())
+
+    # print(Q.is_null())
+
+    
+

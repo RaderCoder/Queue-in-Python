@@ -18,3 +18,12 @@ class Queue(LinkedList.LinkedList):
         self.front.next = None
 
         return val
+
+    def peek(self):
+        return self.front.value
+    
+    def rear(self):
+        return self.head.value
+    
+    def is_null(self):
+        return False if self.head.value else True
